@@ -51,6 +51,7 @@ section {
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
+    margin: 50px;
 }
 
 header {
@@ -66,6 +67,7 @@ h2 {
     font-size: 1.8rem;
     font-weight: bold;
     color: aqua;
+    font-family:monospace
 }
 
 .gutter-right {
@@ -76,8 +78,9 @@ header img {
     height: var(--header-height);
 }
 
-p {
+.results {
     margin: var(--gutter);
+    font-family: monospace;
 }
   
 footer {
@@ -91,8 +94,19 @@ footer {
     box-shadow: var(--shadow);
 }
 
+.shells {
+    padding: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
 .results {
     color:aquamarine;
 }
 
-.
+.shell {
+    margin: 40px;
+}
+
+

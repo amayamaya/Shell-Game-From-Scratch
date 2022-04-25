@@ -1,1 +1,13 @@
+.ball {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: magenta;
+    display: none;
+}
+
+.shell.reveal .ball {
+    display:block;
+}
+
 /* add home page styles here */
