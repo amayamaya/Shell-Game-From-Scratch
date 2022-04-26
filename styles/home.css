@@ -10,4 +10,19 @@
     display:block;
 }
 
+.shells {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.shell {
+    margin: 40px;
+}
+
+.results {
+    color:aquamarine;
+    margin: var(--gutter);
+    font-family: monospace;
+}
 /* add home page styles here */
