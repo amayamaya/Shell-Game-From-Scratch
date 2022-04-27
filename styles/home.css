@@ -1,23 +1,29 @@
-.ball {
+.ball.reveal {
     height: 25px;
     width: 25px;
     border-radius: 50%;
-    background-color: magenta;
-    display: none;
+    background-image: linear-gradient( pink, magenta);
+    z-index: 1;
+    position: absolute;
+    transform: translateY(-100px);
+    box-shadow: 2px -2px 25px  chartreuse;
 }
 
-.shell.reveal .ball {
-    display:block;
+.shell img {
+    width: 100%;
+   
 }
 
 .shells {
-    margin-right: 50px;
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
+    z-index: 2;
 }
 
 .shell {
-    margin: 40px;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
 }
 
 .results {
@@ -25,4 +31,3 @@
     margin: var(--gutter);
     font-family: monospace;
 }
-/* add home page styles here */
