@@ -1,1 +1,50 @@
-/* add home page styles here */
+.ball.reveal {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-image: linear-gradient( pink, magenta);
+    transform: translateY(-100px);
+    box-shadow: 2px -2px 25px  chartreuse;
+    z-index: 0;
+}
+
+.shells img {
+    width: 75%;
+}
+
+
+.shells.reveal img {
+    transform: translateY(-150px);
+}
+
+
+.shells {
+    display: flex;
+    flex-direction: row; 
+    width: fit-content;
+    align-items: center;
+}
+
+.shell {
+    margin: 20px;
+    padding: 20px;
+    z-index: 200;
+}
+
+.results {
+    color:aquamarine;
+    margin: var(--gutter);
+    font-family: monospace;
+}
+
+button {
+    background-color: chartreuse;
+    border-radius: 4%;
+    color:midnightblue;
+    font-family: monospace;
+    border: none;
+}
+
+section {
+    align-items: center;
+}

@@ -2,11 +2,11 @@
 body {
     /* feel free to update these css variables for a quick theme */
     
-    --color1: white;
-    --color2: white;
-    --color3: white;
-    --color4: white;
-    --color5: white;
+    --color1: rgb(0, 59, 66);
+    --color2: rgb(0, 255, 191);
+    --color3: rgb(238, 0, 255);
+    --color4: rgb(217, 255, 0);
+    --color5: rgb(254, 211, 0);
     
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
         
@@ -28,7 +28,7 @@ body {
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    background-color: var(--color1);
 }
 
 main {
@@ -40,9 +40,9 @@ main {
 }
 
 section {
-    background-color: var(--color5);
+    background-color: var(--color1);
     max-width: 80%;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -51,12 +51,13 @@ section {
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
+    margin: 50px;
 }
 
 header {
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
+    background-color: var(--color4);
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
@@ -65,6 +66,8 @@ header {
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
+    color: aqua;
+    font-family:monospace
 }
 
 .gutter-right {
@@ -75,9 +78,6 @@ header img {
     height: var(--header-height);
 }
 
-p {
-    margin: var(--gutter);
-}
   
 footer {
     position: fixed;
@@ -86,6 +86,14 @@ footer {
     height: var(--footer-height);
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
+    background-color: var(--color4);
     box-shadow: var(--shadow);
 }
+
+
+
+
+
+
+
+
